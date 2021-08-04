@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portafolio - Moises Lara</title>
+    <!--Meta datos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatble" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links-->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Moises Lara</h1>
+                <p>Desarrollador Web</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Ciudades</a>
+                <a href="#">Personas</a>
+                <a href="#">Animales</a> 
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item" 
+                 data-categoria="naturaleza"
+                 data-etiquetas="naturaleza montañas mar playas" 
+                 data-descripcion="1.-Lorem ipsum dolor sit amet consectetur.">
+
+                <div class="item-contenido">
+                    <img src="images/images.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                 data-categoria="naturaleza"
+                 data-etiquetas="naturaleza montañas mar playas" 
+                 data-descripcion="2.-Lorem ipsum dolor sit amet consectetur.">
+                
+                 <div class="item-contenido">
+                    <img src="images/images1.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                 data-categoria="ciudades"
+                 data-etiquetas="ciudades autos carros calles" 
+                 data-descripcion="3.-Lorem ipsum dolor sit amet consectetur.">
+                
+                 <div class="item-contenido">
+                    <img src="images/images2.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                 data-categoria="ciudades"
+                 data-etiquetas="ciudades autos carros calles" 
+                 data-descripcion="4.-Lorem ipsum dolor sit amet consectetur.">
+                
+                <div class="item-contenido">
+                    <img src="images/images3.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                 data-categoria="personas"
+                 data-etiquetas="personas mujeres" 
+                 data-descripcion="5.-Lorem ipsum dolor sit amet consectetur.">
+                
+                <div class="item-contenido">
+                    <img src="images/images4.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                 data-categoria="personas"
+                 data-etiquetas="personas mujeres" 
+                 data-descripcion="6.-Lorem ipsum dolor sit amet consectetur.">
+                
+                <div class="item-contenido">
+                    <img src="images/images.5.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                 data-categoria="animales"
+                 data-etiquetas="animales leones" 
+                 data-descripcion="7.-Lorem ipsum dolor sit amet consectetur.">
+                
+                <div class="item-contenido">
+                    <img src="images/images6.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                 data-categoria="animales"
+                 data-etiquetas="animales leones" 
+                 data-descripcion="8.-Lorem ipsum dolor sit amet consectetur.">
+                
+                <div class="item-contenido">
+                    <img src="images/images7.jpg" alt="">
+                </div>
+            </div>
+            <div class="item" 
+                 data-categoria="naturaleza"
+                 data-etiquetas="naturaleza montañas mar playas" 
+                 data-descripcion="9.-Lorem ipsum dolor sit amet consectetur.">
+                
+                <div class="item-contenido">
+                    <img src="images/images8.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+                <p class="descripcion">1.-Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </section>
+
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="http://www.twitter.com" target="_blank" class="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="http://www.facebook.com" target="_blank" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="http://www.instagram.com" target="_blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por">
+                <p>Sitio diseñado por <a href="#">Moises Lara</a></p>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.0/dist/muuri.min.js"></script>
+    <script src="js/interaccion.js"></script>
+</body>
+</html>
